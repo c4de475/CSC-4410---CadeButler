@@ -6,9 +6,14 @@ void area(int length, int width) {
 }
 
 int main() {
-    area(3, 27);
-    area(7, 1000);
-    area(15, 4);
+    int length;
+    int width;
 
+    printf("Please enter a length:\n");
+    scanf("%d", &length);
+    printf("Please enter a width:\n");
+    scanf("%d", &width);
+
+    area(length, width);
     return 0;
 }
