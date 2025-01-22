@@ -6,9 +6,10 @@ void convertFernToCelcius(float fernheit) {
 }
 
 int main() {
-    convertFernToCelcius(78.2);
-    convertFernToCelcius(37.28);
-    convertFernToCelcius(98.6);
+    float fernheit;
+    printf("Please enter a temperature in fahrenheit:\n");
+    scanf("%f", &fernheit);
+    convertFernToCelcius(fernheit);
 
     return 0;
 }
